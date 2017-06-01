@@ -263,6 +263,9 @@ Additional headers to attach to the requests. We add/overwrite the following hea
 * X-Contentful-User-Agent: `sdk contentful.js/1.2.3; platform node.js/1.2.3; os macOS/1.2.3`
  (Automatically generated)
 
+#### resolveLinks (default: `true`)
+Turn off to disable link resolving.
+
 #### retryOnError (default: `true`)
 By default, this SDK is retrying requests which resulted in a 500 server error and 429 rate limit response. Set this to `false` to disable this behavior.
 
