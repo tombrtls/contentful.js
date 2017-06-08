@@ -28,7 +28,7 @@
           }
         }]
       ],
-      "plugins": ["rewire"],
+      "plugins": ["rewire", "lodash"],
       "sourceMaps": "inline",
     }
   }

@@ -18,7 +18,8 @@ var plugins = [
   new webpack.IgnorePlugin(/vertx/),
   new webpack.DefinePlugin({
     'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-  })
+  }),
+  new webpack.DefinePlugin({'global.GENTLY': false })
 ]
 
 if (process.env.NODE_ENV === 'production') {
